@@ -38,6 +38,7 @@ public class MainManager : MonoBehaviour
             }
         }
 
+        Menu.score.value = 0;
         updateScore();
     }
 

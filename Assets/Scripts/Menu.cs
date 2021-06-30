@@ -34,6 +34,7 @@ public class Menu : MonoBehaviour
     public void StartGame()
     {
         score.name = playerName.text;
+        score.value = 0;
         SceneManager.LoadScene(1);
     }
 

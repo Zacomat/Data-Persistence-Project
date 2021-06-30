@@ -21,6 +21,7 @@ public class Score
     public void Load()
     {
         string path = Application.persistentDataPath + "/score.json";
+        Debug.Log(path);
         if (File.Exists(path))
         {
             String json = File.ReadAllText(path);
@@ -40,6 +41,7 @@ public class Score
         String json = JsonUtility.ToJson(this);
         Debug.Log("Save score: json=" + json);
         String path = Application.persistentDataPath + "/score.json";
+        Debug.Log(path);
         File.WriteAllText(path, json);
     }
 
