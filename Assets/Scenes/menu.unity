@@ -478,7 +478,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3f229f68e8a24d75a48c30b35587764, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bestScore: {fileID: 0}
+  bestScore: {fileID: 1469024194}
   playerName: {fileID: 1011796024}
   startButton: {fileID: 916334933}
 --- !u!1 &446294034
